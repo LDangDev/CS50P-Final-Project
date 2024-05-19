@@ -12,7 +12,7 @@
 5. [Functionality](#functionality)
 6. [Testing](#testing)
 
-#### [1. How to use](#how-to-use)
+#### [1. How to use](#1-how-to-use)
 Clone or download this repository to your local machine.
 
 Open your terminal or command prompt and navigate to the project directory.
