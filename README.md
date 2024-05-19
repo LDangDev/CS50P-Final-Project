@@ -30,15 +30,15 @@ The program uses the following Python libraries:
 
 `datetime` for date and time information.
 
-#### [3. API Key](#3-api-key)
+#### [3. API Key](#api-key)
 The program uses the [OpenWeatherMap API](https://openweathermap.org/current#data) to fetch weather data. To use the API, you need to obtain an API key from OpenWeatherMap.
 
 Once you have your API key, replace the placeholder {API key} with your actual API key in the call_api function in the project.py file.
 
-#### [4. Unit Selection](#4-unit-selection)
+#### [4. Unit Selection](#unit-selection)
 You can choose to display the temperature in either °C (Celsius) or °F (Fahrenheit) by entering 'C' or 'F' when prompted. The program will display the data accordingly.
 
-#### [5. Functionality](#5-functionality)
+#### [5. Functionality](#functionality)
 It prompts you to enter the city you want to check weather condition for.
 
 It validates the city name to ensure it's not a sequence of digits or invalid name as the API may return results errors
@@ -50,7 +50,7 @@ The program calls the OpenWeatherMap API with the city name and temperature unit
 It formats the weather data into a table and displays it on the screen, including information such as temperature, feel-like temperature, maximum temperature, minimum temperature, wind speed, city name, country code, date, and time.
 The real time and date will be formatted HH:MM and DD/MM/YYYY, respectively
 
-#### [6. Testing](#6-testing)
+#### [6. Testing](#testing)
 Unit tests are provided for all functions in the project.py except the main() function, and pytest is used as the testing framework.
 Run the following command to run the test:
 ```
